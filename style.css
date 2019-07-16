@@ -1,0 +1,84 @@
+@font-face {
+    font-family: coc;
+    src: url("http://freevbuckx.com/fonts/coc-webfont.woff");
+  }
+
+*,*::after,*::before {
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url("headerbg.jpg") no-repeat fixed;
+    background-position: center; 
+    background-size: cover;
+    font-family: "coc";
+}
+
+#wrapper {
+    position: relative;
+    top: 50%;
+    margin: auto;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    border-radius: 15px;
+    transform: translateY(-50%);
+    max-width: 850px;
+}
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 38px;
+}
+
+input {
+    width: 80%;
+    height: 35px;
+    border-radius: 15px;
+    font-size: 16px;
+    background: #fff;
+    color: #111111;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+input::placeholder {
+    text-align: center;
+
+}
+
+span {
+    color: #fff; 
+}
+
+input[type="checkbox"] {
+    width: auto;
+    height: auto;
+}
+
+#term {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+#button {
+    padding: 15px;
+    background: yellow;
+    border-radius: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
